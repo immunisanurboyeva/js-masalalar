@@ -21,14 +21,14 @@ let numbers = [4, 8, 1, 9, 3];
 
 
 
-
 /* ------------------------------------------------------------
-                        • vazifa 2
+                        •🌿 vazifa 2
 
         Faqat 18 yoshdan katta foydalanuvchilarni chiqaring.
 
     ------------------------------------------------------------
 */ 
+
 let users = [
     { name: "Ali", age: 17 },
     { name: "Vali", age: 22 },
@@ -49,9 +49,6 @@ let users = [
 
 
 
-
-
-
 /* ------------------------------------------------------------
                         •🪴 vazifa 3
 
@@ -66,8 +63,8 @@ let products = [
     { title: "Anor", price: 15000, quantity: 8 }
 ];
 
-products.quantity = Number(products.quantity)
-products.price = Number(products.price)
+products.quantity = +products.quantity
+products.price = +products.price
 
 /* 1 - usul || mahsulotlarning umumiy summasi */   
 
