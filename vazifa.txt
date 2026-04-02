@@ -1,0 +1,38 @@
+🟢 OSON (Array)
+let numbers = [4, 8, 1, 9, 3];
+Vazifa:
+Faqat juft sonlarni yangi arrayga ajrating.
+
+👉 Savol:
+Qaysi metod ishlatasiz — map, filter, yoki boshqa narsa?
+
+Faqat metod nomini yozing.
+
+🟡 O‘RTA (Object + Array)
+let users = [
+  { name: "Ali", age: 17 },
+  { name: "Vali", age: 22 },
+  { name: "Sami", age: 19 }
+];
+Vazifa:
+Faqat 18 yoshdan katta foydalanuvchilarni chiqaring.
+
+👉 Bu yerda qaysi metod kerak bo‘ladi?
+
+Bir so‘z bilan javob bering.
+
+🔴 QIYIN (Array ichida object)
+let products = [
+  { title: "Olma", price: 5000, quantity: 10 },
+  { title: "Banan", price: 12000, quantity: 5 },
+  { title: "Anor", price: 15000, quantity: 8 }
+];
+Vazifa:
+Har bir mahsulotning umumiy summasini hisoblang.
+(price * quantity)
+
+Masalan:
+Olma → 5000 * 10
+
+👉 Savol:
+Bu vazifa uchun map kerakmi yoki filter?   
